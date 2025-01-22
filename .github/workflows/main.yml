@@ -3,6 +3,6 @@ on: push
 jobs:
 my-job:
 runs-on: ubuntu-latest
-sreps:
+steps:
 -name:my-step
 run: echo "Hello World!"
